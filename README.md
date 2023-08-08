@@ -7,11 +7,9 @@ https://www.youtube.com/watch?v=L-MEaSPCuHg
 
 ## URL
 
-App url:  
-https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dataflow-server/2.10.3//spring-cloud-dataflow-server-2.10.3.jar
-
+App url: http://localhost:9393/dashboard/index.html#/apps
 
 ## To Run It
 
-Use script to start skipper.
-Use script to start server.
+1. Use script to start skipper.
+2. Use script to start server.
