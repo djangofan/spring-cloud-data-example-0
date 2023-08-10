@@ -18,7 +18,7 @@ App url: http://localhost:9393/dashboard/index.html#/apps
 
 ## To test
 
-Create a Stream
+Create a Stream ( https://dataflow.spring.io/docs/stream-developer-guides/getting-started/stream/ )
 
 Create a new stream called `http | log`
 
