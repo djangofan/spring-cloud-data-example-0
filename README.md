@@ -11,6 +11,6 @@ App url: http://localhost:9393/dashboard/index.html#/apps
 
 ## To Run It
 
-1. Run startDatabase.bat
-2. Run startServer.bat
-3. Run startSkipper.bat
+1. Run 1.startDatabase.bat
+2. Run DataFlowUI/2.startServer.bat
+3. Run DataFlowUI/3.startSkipper.bat
