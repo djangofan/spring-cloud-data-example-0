@@ -11,5 +11,6 @@ App url: http://localhost:9393/dashboard/index.html#/apps
 
 ## To Run It
 
-1. Use script to start skipper.
-2. Use script to start server.
+1. Run startDatabase.bat
+2. Run startServer.bat
+3. Run startSkipper.bat
