@@ -20,9 +20,9 @@ App url: http://localhost:9393/dashboard/index.html#/apps
 
 Create a Stream ( https://dataflow.spring.io/docs/stream-developer-guides/getting-started/stream/ )
 
-Create a new stream called `http | log`
+Create a new stream called `http --server.port=46010 | log`
 
-Deploy the Stream and it will show you the url of how to hit it.
+Deploy the Stream and in the log it will show you the IP address of how to hit it.
 
 Then hit the stream like this:
 
