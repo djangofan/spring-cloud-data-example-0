@@ -40,6 +40,11 @@ Then,  try this:
 https://dataflow.spring.io/docs/batch-developer-guides/batch/data-flow-spring-batch/
 
 To import the Application, after building the Maven project, you'll import the Application as `source` with a url like this, so 
-that you can use it as a task : 
+that you can use it as a task.  Run the `billsetuptask` first because it creates the necessary table for `billrun` task.
+
+    file:///C:/Users/me/workspace/spring-cloud-data-example-0/billsetuptask/target/billsetuptask-2.0.0-SNAPSHOT.jar
 
     file:///C:/Users/me/workspace/spring-cloud-data-example-0/billrun/target/billrun-2.0.0-SNAPSHOT.jar
+
+    
+    
