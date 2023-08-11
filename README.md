@@ -17,7 +17,7 @@ App url: http://localhost:9393/dashboard/index.html#/apps
 4. Run DataFlowUI/3.startSkipper.bat
 
 
-## To test
+## Test 1
 
 Create a Stream ( https://dataflow.spring.io/docs/stream-developer-guides/getting-started/stream/ )
 
@@ -33,8 +33,13 @@ Example:
 
 And view the console output of the Log stream from the UX.
 
+## Test 2 
 
 Then,  try this:
 
 https://dataflow.spring.io/docs/batch-developer-guides/batch/data-flow-spring-batch/
 
+To import the Application, after building the Maven project, you'll import the Application as `source` with a url like this, so 
+that you can use it as a task : 
+
+    file:///C:/Users/me/workspace/spring-cloud-data-example-0/billrun/target/billrun-2.0.0-SNAPSHOT.jar
