@@ -15,7 +15,8 @@ App url: http://localhost:9393/dashboard/index.html#/apps
 2. Run 1.startDatabase.bat
 3. Run DataFlowUI/2.startServer.bat
 4. Run DataFlowUI/3.startSkipper.bat
-
+5.  docker exec -it test-mariadb mariadb --user root -ppass
+6.  CREATE DATABASE jsoncopy;
 
 ## Test 1
 
