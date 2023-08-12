@@ -32,6 +32,16 @@ public class TaskConfiguration {
 	@Autowired
 	private DataSource dataSource;
 
+    //	@Bean
+    //	public DataSource dataSource() {
+    //		DriverManagerDataSource dataSource = new DriverManagerDataSource();
+    //		dataSource.setDriverClassName("org.mariadb.jdbc.Driver");
+    //		dataSource.setUrl("jdbc:mariadb://localhost:3306/jsoncopy");
+    //		dataSource.setUsername("root");
+    //		dataSource.setPassword("pass");
+    //		return dataSource;
+    //	}
+
 	@Bean
 	public CommandLineRunner commandLineRunner() {
 		return args -> {
@@ -41,4 +51,5 @@ public class TaskConfiguration {
 					"data_usage int, bill_amount decimal(10,2))");
 		};
 	}
+
 }
